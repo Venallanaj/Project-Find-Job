@@ -1,0 +1,705 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f2f4f8;
+}
+.center {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+   
+  }
+h1.setion-title{
+    position: absolute;
+    top: 10px;;
+    width: 100%;
+    text-align: center;
+}
+
+
+button.previous, button.next{
+    padding: 4px 6px;
+    background-color: #ffa185;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    border-style: none;
+    cursor: pointer;
+    font-size: 13px;
+   
+}
+button.next:hover{
+    display: inline;
+}
+#jobs,#value{
+    height: 50px;
+    border-style: none none solid;
+    border-color: #000 #000 #f2f4f8;
+    background-color: transparent;
+    transition: box-shadow .1s ease-in-out;
+    line-height: 50px;
+
+}
+.jobs, span{
+    font-size: 14px ;
+    font-weight: 500;
+}
+button.all{
+    background-color: #fff;
+    color: #ffa185;
+    margin-right: -35px;
+    margin-left: 5px;
+    padding: 7px 15px;
+    border-radius: 40px;
+    border-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 400;
+
+ 
+}
+
+.container{
+    display: block;
+    max-width: 700px;
+    height:40px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 30px 30px 30px 60px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    position: relative;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.container .logo1{
+    width: 80px;
+    cursor: pointer;
+    position: absolute;
+    top:30px;
+    left: 16px;
+
+}
+h2{
+    margin-left: 45px;
+    font-size: 22px;
+}
+.font{
+    margin-right: 20em;
+    position: relative;
+}
+.container button{
+    padding: 8px 25px;
+    background-color:#ffa185 ;
+    border: 2px solid #ffa185 ;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        max-width: 250px;
+        height: 30px;
+        display: flex;
+    }
+}
+.container:hover {
+    border-color: black !important;
+}
+/* button.previous{
+    position: relative;
+    top:  130%;
+
+  
+
+} */
+
+/* button.all{
+    padding: 5px 15px;
+    background-color: #fff;
+    color: #ffa185;
+    border-radius:40px;
+    border-style: none;
+    text-decoration: none;
+    font-size: 12px;
+}
+  
+
+
+
+@media only screen and (max-width: 600px){}
+button.all {
+    margin-right: -44px;
+   
+}
+.container{
+    display: block;
+    max-width: 600px;
+ 
+    height: 30px;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    background-color: #fff;
+    padding: 30px 30px 30px 60px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    position: relative;
+   
+}
+@media only screen and (max-width: 812px) {
+    .container{
+        max-width: 250px;
+        height: 30px;
+    }
+}
+#over:hover {
+    border-color: black !important;
+}
+.logo1{
+    position: absolute;
+    top: 30px;
+    left: 16px;
+    font-size: 18px; 
+    width: 80px;
+    
+}
+
+.title{
+    display: flex;
+    margin-left: 45px;
+    position: absolute;
+    top: 40%; 
+ 
+
+    
+}
+
+#button{
+    padding: 8px 25px;
+    background-color:#ffa185; ;
+    color: #fff;
+    outline: none;
+    border: 2px solid #ffa185 ;
+    border-radius: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+#button:hover {
+    background-color: #fd8274;
+    border: 2px solid #fd8274 ;
+} */
+/* .container{
+    position: absolute;
+    top: 130%;
+    width: 50%;
+     height: 700px;
+    height: auto;
+    display: flex;
+    background-color: #fff;
+    flex-flow: row wrap;
+    border-radius: 20px;
+    
+
+} */
+
+/* @media only screen and (max-width: 600px){
+   .previous{
+    position: absolute;
+    top: 70%;
+    margin-left:-186px;
+  
+    text-align: center;
+    font-size: 18px;
+  }
+
+} */
+/* .results{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+
+} */
+/* .results .cars{
+    border-style: none!important;   
+} */
+
+
+/* h2 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-indent: -1px;
+}
+
+.page-link {
+    text-decoration: none;
+    border: 1px solid white;
+    
+
+}
+
+
+.btn {
+    display: inline-block;
+    min-height: 0;
+    padding: 2px 6px;
+    border-radius: 10px;
+    background-color: #ffa185;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+.btn1 {
+    display: inline-block;
+    min-height: 0;
+    padding: 2px 6px;
+    border-radius: 10px;
+    background-color: #ffa185;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+.btn1:hover {
+    text-decoration-line: underline;
+}
+
+.all{
+    text-decoration: none!important;
+    background-color: #ffa185;
+    color: #fff;
+    display: inline-block;
+    min-height: 0;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 15px;
+} */
+
+
+
+
+
+/* .serachjob {
+    display: inline-block;
+    min-height: 0;
+    padding: 2px 6px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #ffa185;
+    font-size: 15px;
+    text-decoration: none!important;
+} */
+
+
+
+
+/* .jobdescription{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.profil{
+    display: block;
+}
+.request{
+    position: relative;
+}
+.searchyourjob{
+    display: block;
+    max-width: 700px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+.position{
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 20px;  
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px 30px 30px 60px;
+    border: 2px solid #e6dcdc;
+    border-radius: 20px;
+    background-color: #fff;
+    -webkit-transition: border-color .2s ease-in-out;
+    transition: border-color .2s ease-in-out;
+    cursor: pointer;
+   
+    
+}
+
+.flex-columns{
+    display: webkit-box;
+    display: webkit-flex;
+    display: ms-flexbox;
+    display: flex;
+    height: auto;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.companylogo{
+    position: absolute;
+    left: -30px;
+    top:-30px !important;
+    right: auto;
+    bottom: auto;
+    margin-right: 30px;
+   width: 90px;
+   height: 45px;
+}
+
+
+
+.w-col-3{
+    width: 25%;
+}
+.w-col-9{
+    width: 75% !important;
+}
+.w-col{
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height:1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.companylogo{
+    position: absolute;
+    left: -30px;
+    top: -2px;
+    right: auto;
+    bottom: auto;
+    margin-right: 30px;
+}
+.button.button-small {
+    width: 60px;
+    height: 38px;
+    margin-right: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 10px;
+    line-height: 36px;
+    
+}
+.button .primary {
+    background-color: #ffa185;
+     transition: color .1s;
+     
+}
+
+.button{
+    display: inline-block;
+    padding: 0 34px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffa185;
+    color: #fff;
+    text-decoration:none;
+    font-size: 12px;
+    line-height: 50px;
+    margin-left: 450px;
+    position: relative;
+    top:-35px;
+}
+ 
+
+.button.primary:hover {
+    background-color: #fd8274;
+    
+}
+
+div .position:hover{
+    border: 2px solid black;
+}
+ */
+
+
+/* Responsive for mobile  Moto G4 studio pjesen e buttonave ne mobile*/
+
+@media screen and (max-width: 991px){
+    h2 {
+       font-size: 28px;
+    } 
+    }
+    @media screen and (max-width: 991px){
+    .text-small {
+        font-size: 13px;
+         }    
+    }
+    
+    @media screen and (max-width: 991px){
+        .btn1{
+            font-size: 13px;
+             }    
+        }
+    
+    
+    
+     /* Responsive for mobile  Moto G4*/
+    @media screen and (min-device-width: 360px) and (max-device-width: 640px) { 
+        .all{
+            width: 400px!important;
+            height: 30px;
+            text-align: left;
+            border-radius: 20px;
+            margin-left: -45px !important;
+            font-size: 1em !important;
+            min-height: 5;
+           left: -25px;
+            
+           
+        }
+    }
+       
+    @media screen and (min-device-width: 320px) and (max-device-width: 568px) { 
+        .all{
+            width: 270px !important;
+            height: 30px;
+            text-align: left;
+            border-radius: 20px;
+            margin-left: -45px !important;
+
+
+            
+           
+        }
+    }
+    
+    @media screen and (min-device-width: 375px) and (max-device-width: 667px) { 
+        .all{
+            width: 320px !important;
+            height: 30px;
+            text-align: left;
+            border-radius: 20px;
+            margin-left: -45px !important;
+           
+        }
+    }
+    
+    @media screen and (min-device-width: 414px) and (max-device-width: 763px) { 
+        .all{
+            width: 350px !important;
+            height: 30px;
+            text-align: left;
+            border-radius: 20px;
+            margin-left: -40px !important;
+            min-height: 0;
+            line-height: initial;
+           
+        }
+    }
+
+
+    /* responsive for mobile (logo, font, button ) phones Iphone 5/SE: */
+
+    /* For mobile phones Iphone: */
+@media screen and (min-device-width: 360px) and (max-device-width: 640px) { 
+    /* STYLES HERE */
+    .companylogo{
+        position: relative;
+        top:-30px !important;
+        width: 40px !important;
+        height: 50px!important;
+    }
+}
+
+
+/* For mobile phones Iphone 5/SE: */
+@media screen and (min-device-width: 320px) and (max-device-width: 568px) { 
+    /* STYLES HERE */
+    .companylogo{
+        position: relative;
+        left: -40px !important;
+        top:-25px !important;
+        right: auto;
+        bottom: auto;
+        margin-right: 30px;
+       width: 45px;
+       height: 45px;
+    }
+}
+
+
+
+/* @media screen and (max-width: 479px){
+.button.button-small {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    font-size: 10px;
+}} */
+
+/* Responsive for mobile  Moto G4*/
+@media screen and (min-device-width: 360px) and (max-device-width: 640px) { 
+
+ .button {
+    /* position:fixed;
+    bottom:0px;
+    text-align:center;
+    z-index: 99;
+    display:block;
+    width:100%;
+    margin: auto; */
+
+    display: inline-block;
+    padding: 0 34px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffa185;
+    color: #fff;
+    text-decoration:none;
+    font-size: 12px !important;
+    line-height: initial;
+    margin-left: -55px!important;
+    position: relative;
+    top:25px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    width: 300px !important;
+    height: 35px!important;
+    
+    
+}
+
+}
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 560px) { 
+
+    .button {
+       /* position:fixed;
+       bottom:0px;
+       text-align:center;
+       z-index: 99;
+       display:block;
+       width:100%;
+       margin: auto; */
+   
+       display: inline-block;
+       padding: 0 34px;
+       border-radius: 50px;
+       font-weight: 600;
+       text-align: center;
+       text-transform: uppercase;
+       background-color: #ffa185;
+       color: #fff;
+       text-decoration:none;
+       font-size: 12px !important;
+       line-height: initial;
+       margin-left: -67px;
+       width: 160px !important;
+       height: 35px!important;
+       position: relative;
+       top:20px;
+       -webkit-box-flex: 0;
+       -webkit-flex: 0 auto;
+       -ms-flex: 0 auto;
+       flex: 0 auto;
+       font-size: 10px;
+   }
+   
+   }
+
+   @media screen and (min-device-width: 411px) and (max-device-width: 731px) { 
+
+    .button {
+        display: inline-block;
+       padding: 0 34px;
+       border-radius: 50px;
+       font-weight: 600;
+       text-align: center;
+       text-transform: uppercase;
+       background-color: #ffa185;
+       color: #fff;
+       text-decoration:none;
+       font-size: 12px !important;
+       line-height: initial;
+       width: 300px !important;
+       height: 35px!important;
+       position: relative;
+       top:20px;
+      left: 20px!important;
+    
+
+    }
+}
+
+
+/* Responsive for iphone  6/7/8*/
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) { 
+
+    .button {
+        width: 210px !important;
+        height: 35px!important;
+        margin-left: -65px!important;
+
+
+    }
+}
+
+/* Responsive for iphone  6/7/8 Plus*/
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) { 
+
+    .button {
+        width: 250px !important;
+        height: 35px!important;
+        margin-left: -67px!important;
+    }
+}
+
+/*Responsive for iphone  10 Plus*/
+
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) { 
+
+    .button {
+        width: 200px !important;
+        height: 30px!important;
+        margin-left: -67px!important;
+    }
+}
