@@ -39,7 +39,7 @@ button.next:hover{
 #jobs,#value{
     height: 50px;
     border-style: none none solid;
-    border-color: #000 #000 #f2f4f8;
+    border-color: #000 #f2f4f8;
     background-color: transparent;
     transition: box-shadow .1s ease-in-out;
     line-height: 50px;
@@ -72,7 +72,7 @@ button.all{
     margin: auto;
     margin-top: 40px;
     background-color: #fff;
-    padding: 30px 30px 30px 60px;
+    padding: 30px 70px;
     border-radius: 20px;
     border: 2px solid #fff;
     position: relative;

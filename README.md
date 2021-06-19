@@ -1,2 +1,3 @@
 # Project-Finde-Jobs
-To completed thos project i ahve used to html, CSS, Javascript
+To completed this  project I have used to Html, Css, Javascript.
+This project is in work process
